@@ -1,10 +1,10 @@
 'use client';
 
-import { Navbar, Dropdown, Button, Menu } from 'react-daisyui'
+import { Navbar, Dropdown, Button, Menu, Mask, Link, Divider } from 'react-daisyui'
 
 export default function Nav() {
   return (
-    <div className="flex w-full component-preview p-4 items-center justify-center gap-2 font-sans">
+    <div className="flex w-full font-sans bg-neutral mb-4">
       <Navbar>
         <Navbar.Start>
           <Dropdown>
@@ -51,7 +51,14 @@ export default function Nav() {
               <Dropdown.Item>Item 3</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <a className="btn btn-ghost normal-case text-xl">The Wilson Net</a>
+          <Mask
+            src="/me.png"
+            variant="squircle"
+            className="w-8 h-full"
+            alt="Brent Wilson"
+          />
+          <Link className="px-2 normal-case text-xl" href="/">The Wilson Net</Link>
+
         </Navbar.Start>
         <Navbar.End className="hidden lg:flex">
           <Menu horizontal className="p-0">
