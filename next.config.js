@@ -2,8 +2,8 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    transpilePackages: ["react-daisyui"],
   },
 };
-const withTM = require("next-transpile-modules")(["react-daisyui"]);
 
-module.exports = withTM(nextConfig);
+module.exports = nextConfig;
