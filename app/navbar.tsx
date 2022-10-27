@@ -25,10 +25,10 @@ export default function Nav() {
               </svg>
             </Button>
             <Dropdown.Menu tabIndex={0} className="w-52 menu-compact mt-3">
-              <Dropdown.Item>Item 1</Dropdown.Item>
+              <Dropdown.Item>About Me</Dropdown.Item>
               <li tabIndex={0}>
                 <a className="justify-between">
-                  Parent
+                  Services
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,14 +41,20 @@ export default function Nav() {
                 </a>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>Web Hosting</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>WordPress</a>
+                  </li>
+                  <li>
+                    <a>XenForo</a>
+                  </li>
+                  <li>
+                    <a>Other</a>
                   </li>
                 </ul>
               </li>
-              <Dropdown.Item>Item 3</Dropdown.Item>
+              <Dropdown.Item>Resume</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Mask
@@ -63,11 +69,11 @@ export default function Nav() {
         <Navbar.End className="hidden lg:flex">
           <Menu horizontal className="p-0">
             <Menu.Item>
-              <a>Item 1</a>
+              <a>About Me</a>
             </Menu.Item>
             <Menu.Item tabIndex={0}>
               <a>
-                Parent
+                Services
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,15 +86,21 @@ export default function Nav() {
               </a>
               <Menu className="p-2 bg-base-100">
                 <Menu.Item>
-                  <a>Submenu 1</a>
+                  <a>Web Hosting</a>
                 </Menu.Item>
                 <Menu.Item>
-                  <a>Submenu 2</a>
+                  <a>WordPress</a>
+                </Menu.Item>
+                <Menu.Item>
+                  <a>XenForo</a>
+                </Menu.Item>
+                <Menu.Item>
+                  <a>Other</a>
                 </Menu.Item>
               </Menu>
             </Menu.Item>
             <Menu.Item>
-              <a>Item 3</a>
+              <a>Resume</a>
             </Menu.Item>
           </Menu>
         </Navbar.End>
