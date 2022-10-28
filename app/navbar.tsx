@@ -1,6 +1,6 @@
 'use client';
 
-import { Navbar, Dropdown, Button, Menu, Mask, Link, Divider } from 'react-daisyui'
+import { Navbar, Dropdown, Button, Menu, Mask, Link } from 'react-daisyui'
 
 export default function Nav() {
   return (
@@ -54,7 +54,7 @@ export default function Nav() {
                   </li>
                 </ul>
               </li>
-              <Dropdown.Item>Resume</Dropdown.Item>
+              <Dropdown.Item><Link href='/resume'>Resume</Link></Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Mask
@@ -100,7 +100,7 @@ export default function Nav() {
               </Menu>
             </Menu.Item>
             <Menu.Item>
-              <a>Resume</a>
+              <Link href='/resume'>Resume</Link>
             </Menu.Item>
           </Menu>
         </Navbar.End>
