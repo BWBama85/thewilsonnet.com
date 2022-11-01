@@ -1,14 +1,13 @@
-'use client';
-
-import { Navbar, Dropdown, Button, Menu, Mask, Link } from 'react-daisyui'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Nav() {
   return (
-    <div className="flex w-full font-sans bg-neutral mb-4">
-      <Navbar>
-        <Navbar.Start>
-          <Dropdown>
-            <Button color="ghost" tabIndex={0} className="lg:hidden">
+    <div className="flex w-full mb-4">
+      <div className="navbar bg-neutral text-neutral-content">
+        <div className="navbar-start w-full">
+          <div className="dropdown">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -23,9 +22,9 @@ export default function Nav() {
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
-            </Button>
-            <Dropdown.Menu tabIndex={0} className="w-52 menu-compact mt-3">
-              <Dropdown.Item>About Me</Dropdown.Item>
+            </label>
+            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>About Me</a></li>
               <li tabIndex={0}>
                 <a className="justify-between">
                   Services
@@ -54,24 +53,24 @@ export default function Nav() {
                   </li>
                 </ul>
               </li>
-              <Dropdown.Item><Link href='/resume'>Resume</Link></Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-          <Mask
-            src="/me.png"
-            variant="squircle"
-            className="w-8 h-full"
+              <li><Link href='/resume'>Resume</Link></li>
+            </ul>
+          </div>
+          <Image
+            className="mask mask-squircle"
             alt="Brent Wilson"
+            src="/me.png"
+            width={50}
+            height={50}
           />
           <Link className="px-2 normal-case text-xl" href="/">The Wilson Net</Link>
-
-        </Navbar.Start>
-        <Navbar.End className="hidden lg:flex">
-          <Menu horizontal className="p-0">
-            <Menu.Item>
+        </div>
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal p-0">
+            <li>
               <a>About Me</a>
-            </Menu.Item>
-            <Menu.Item tabIndex={0}>
+            </li>
+            <li tabIndex={0}>
               <a>
                 Services
                 <svg
@@ -84,27 +83,27 @@ export default function Nav() {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <Menu className="p-2 bg-base-100">
-                <Menu.Item>
+              <ul className="p-2 bg-base-100">
+                <li>
                   <a>Web Hosting</a>
-                </Menu.Item>
-                <Menu.Item>
+                </li>
+                <li>
                   <a>WordPress</a>
-                </Menu.Item>
-                <Menu.Item>
+                </li>
+                <li>
                   <a>XenForo</a>
-                </Menu.Item>
-                <Menu.Item>
+                </li>
+                <li>
                   <a>Other</a>
-                </Menu.Item>
-              </Menu>
-            </Menu.Item>
-            <Menu.Item>
+                </li>
+              </ul>
+            </li>
+            <li>
               <Link href='/resume'>Resume</Link>
-            </Menu.Item>
-          </Menu>
-        </Navbar.End>
-      </Navbar>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

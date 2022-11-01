@@ -1,19 +1,18 @@
-'use client'
-
-import { Footer, Mask } from 'react-daisyui'
+import Image from 'next/image';
 
 export default function Foot() {
 
   return (
-    <Footer className="p-10 bg-neutral text-neutral-content justify-center md:justify-evenly">
+    <footer className="footer p-10 bg-neutral text-neutral-content justify-center md:justify-evenly">
       <div>
-        <Mask
-          src="/me.png"
-          variant="squircle"
-          className="w-24 h-full"
+        <Image
+          className="mask mask-squircle mx-auto"
           alt="Brent Wilson"
+          src="/me.png"
+          width={120}
+          height={120}
         />
-        <p className="w-32 ">
+        <p className="w-32 text-center">
           <span className="font-bold"> The Wilson Net</span>
           <br />
           Huntsville, AL
@@ -21,26 +20,26 @@ export default function Foot() {
       </div>
 
       <div>
-        <Footer.Title>Services</Footer.Title>
+        <span className="footer-title">Services</span>
         <a className="link link-hover">Web Hosting</a>
         <a className="link link-hover">WordPress</a>
         <a className="link link-hover">XenForo</a>
         <a className="link link-hover">Other</a>
       </div>
       <div>
-        <Footer.Title>About Me</Footer.Title>
+        <span className="footer-title">About Me</span>
         <a className="link link-hover">Biography</a>
         <a className="link link-hover">Resume</a>
         <a className="link link-hover">Projects</a>
         <a className="link link-hover">Services</a>
       </div>
       <div>
-        <Footer.Title>Misc</Footer.Title>
+        <span className="footer-title">Misc</span>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">About This Website</a>
         <a className="link link-hover">Terms of Use</a>
         <a className="link link-hover">Privacy Policy</a>
       </div>
-    </Footer>
+    </footer>
   )
 }
