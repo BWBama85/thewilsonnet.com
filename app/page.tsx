@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="mx-auto">
       <Image
         className="mask mask-squircle mx-auto"
         alt="Brent Wilson"
@@ -61,42 +61,41 @@ export default function Home() {
         </div>
       </div>
       <div className="divider"></div>
-      <div className="hero bg-base-200">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-4xl font-bold">About Me</h1>
-            <p className="py-6">
-              A Webmaster since I was 17-years-old, I have built and managed some of the largest community driven websites on the internet.
-            </p>
-            <button className="btn btn-primary">Learn More</button>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <div className="hero bg-base-200">
+          <div className="hero-content text-center">
+            <div className="max-w-md">
+              <h1 className="text-4xl font-bold">About Me</h1>
+              <p className="py-6">
+                A Webmaster since I was 17-years-old, I have built and managed some of the largest community driven websites on the internet.
+              </p>
+              <button className="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div className="hero bg-base-200">
+          <div className="hero-content text-center">
+            <div className="max-w-md">
+              <h2 className="text-4xl font-bold">Projects</h2>
+              <p className="py-6">
+                The only &quot;job&quot; I have ever had was at Domino&apos;s Pizza. Since I left that job in 2007 I have had projects.
+              </p>
+              <button className="btn btn-primary">My Projects</button>
+            </div>
+          </div>
+        </div>
+        <div className="hero bg-base-200 md:col-span-2">
+          <div className="hero-content text-center">
+            <div className="max-w-md">
+              <h2 className="text-4xl font-bold">Services</h2>
+              <p className="py-6">
+                I love what I do and so I have no problem working on the side for some extra money. If you have a problem or idea, let me solve it or bring it to life.
+              </p>
+              <button className="btn btn-primary">My Services</button>
+            </div>
           </div>
         </div>
       </div>
-      <div className="divider"></div>
-      <div className="hero bg-base-200">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h2 className="text-4xl font-bold">Projects</h2>
-            <p className="py-6">
-              The only &quot;job&quot; I have ever had was at Domino&apos;s Pizza. Since I left that job in 2007 I have had projects.
-            </p>
-            <button className="btn btn-primary">My Projects</button>
-          </div>
-        </div>
-      </div>
-      <div className="divider"></div>
-      <div className="hero bg-base-200">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h2 className="text-4xl font-bold">Services</h2>
-            <p className="py-6">
-              I love what I do and so I have no problem working on the side for some extra money. If you have a problem or idea, let me solve it or bring it to life.
-            </p>
-            <button className="btn btn-primary">My Services</button>
-          </div>
-        </div>
-      </div>
-      <div className="divider"></div>
     </div>
   )
 }
