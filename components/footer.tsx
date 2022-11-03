@@ -1,24 +1,7 @@
-import Image from 'next/image';
-
 export default function Foot() {
 
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content justify-center md:justify-evenly">
-      <div>
-        <Image
-          className="mask mask-squircle mx-auto"
-          alt="Brent Wilson"
-          src="/me.png"
-          width={120}
-          height={120}
-        />
-        <p className="w-32 text-center">
-          <span className="font-bold"> The Wilson Net</span>
-          <br />
-          Huntsville, AL
-        </p>
-      </div>
-
+    <footer className="footer bg-neutral text-neutral-content">
       <div>
         <span className="footer-title">Services</span>
         <a className="link link-hover">Web Hosting</a>

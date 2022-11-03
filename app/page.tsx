@@ -17,6 +17,7 @@ export default function Home() {
         src="/me.png"
         width={288}
         height={222}
+        priority
       />
       <div className="text-center">
         <h1 className="text-4xl font-bold my-3">Brent Wilson</h1>
@@ -69,7 +70,7 @@ export default function Home() {
               <p className="py-6">
                 A Webmaster since I was 17-years-old, I have built and managed some of the largest community driven websites on the internet.
               </p>
-              <button className="btn btn-primary">Learn More</button>
+              <Link href="/about" title="About Brent Wilson" className="btn btn-primary">Learn More</Link>
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@ export default function Home() {
               <p className="py-6">
                 The only &quot;job&quot; I have ever had was at Domino&apos;s Pizza. Since I left that job in 2007 I have had projects.
               </p>
-              <button className="btn btn-primary">My Projects</button>
+              <Link href="/projects" title="My Projects" className="btn btn-primary">My Projects</Link>
             </div>
           </div>
         </div>
@@ -91,7 +92,7 @@ export default function Home() {
               <p className="py-6">
                 I love what I do and so I have no problem working on the side for some extra money. If you have a problem or idea, let me solve it or bring it to life.
               </p>
-              <button className="btn btn-primary">My Services</button>
+              <Link href="/services" title="My Services" className="btn btn-primary">My Services</Link>
             </div>
           </div>
         </div>

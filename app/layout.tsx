@@ -1,6 +1,6 @@
 import './globals.css'
-import Nav from './navbar'
-import Foot from './footer'
+import Nav from '../components/navbar'
+import Foot from '../components/footer'
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Brent Wilson - Huntsville, AL</title>
@@ -18,10 +18,9 @@ export default function RootLayout({
       <body>
         <div className="container mx-auto w-full">
           <Nav />
-          <div id="page" className="px-4">
+          <main id="page" className="px-2">
             {children}
-          </div>
-          <Foot />
+          </main>
         </div>
       </body >
     </html >

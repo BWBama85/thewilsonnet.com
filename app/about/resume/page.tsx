@@ -1,6 +1,5 @@
-import TOC from '../tableofcontents';
+import TOC from '../../tableofcontents';
 import Link from 'next/link';
-import Image from 'next/image'
 import {
   FaGithub,
   FaGit,
@@ -161,7 +160,7 @@ export default function Resume() {
                 Linux System Administration
               </p>
               <p>
-                Helps clients setup, secure, optimize and maintain their Linux servers.
+                Help clients setup, secure, optimize and maintain their Linux servers.
               </p>
             </li>
             <li>
