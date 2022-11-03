@@ -18,13 +18,11 @@ export default function Nav() {
           <Link className="px-2 normal-case text-xl" href="/">The Wilson Net</Link>
         </div>
         <div className="navbar-end">
-          <div className="flex">
-            <ul className="menu menu-horizontal p-0">
-              <li>
-                <Link href='/about/resume'>Resume</Link>
-              </li>
-            </ul>
-          </div>
+          <ul className="menu menu-horizontal p-0">
+            <li>
+              <Link href='/about/resume'>Resume</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

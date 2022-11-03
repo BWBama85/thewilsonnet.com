@@ -24,13 +24,13 @@ export default function Resume() {
 
           <h1>Richard Brent Wilson&apos;s Resume</h1>
 
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">brent@thewilsonnet.com</span>
             <span className="badge p-3">256-316-9678</span>
             <span className="badge p-3">Huntsville, AL</span>
           </div>
 
-          <div className="flex gap-3 mt-4 text-2xl">
+          <div className="flex flex-wrap gap-3 mt-4 text-2xl">
             <Link
               href="https://github.com/BWBama85"
               target="_blank"
@@ -76,7 +76,7 @@ export default function Resume() {
 
           <h3 id="bamapolitics">Owner, BamaPolitics.com</h3>
 
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">October 2018 to Present</span>
           </div>
@@ -145,7 +145,7 @@ export default function Resume() {
           </ul>
 
           <h3 id="freelancer">Freelancer</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">Grapevine, TX</span>
             <span className="badge p-3">Chattanooga, TN</span>
@@ -182,7 +182,7 @@ export default function Resume() {
           </ul>
 
           <h3 id="groupnet">Chief Operating Officer, Group Net, LLC</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">April 2012 to July 2022</span>
           </div>
@@ -194,7 +194,7 @@ export default function Resume() {
           </p>
 
           <h3 id="socialknowledge">Tier 1-3 Technical Support, Social Knowledge, LLC</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Grapevine, TX</span>
             <span className="badge p-3">September 2011 to April 2012</span>
           </div>
@@ -211,7 +211,7 @@ export default function Resume() {
           </ul>
 
           <h3 id="mustangevolution">Owner, MustangEvolution.com</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">May 2003 to April 2012</span>
           </div>
@@ -226,7 +226,7 @@ export default function Resume() {
             for people who wanted to network with other Ford Mustang owners locally and around the world.
           </p>
           <h3 id="dominos">Customer Service Representative, Domino&apos;s Pizza</h3>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">September 2001 to May 2007</span>
           </div>
@@ -242,7 +242,7 @@ export default function Resume() {
           </ul>
 
           <h2 id="education">Education</h2>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
             <span className="badge p-3">September 2004 to May 2007</span>
           </div>
@@ -254,7 +254,7 @@ export default function Resume() {
           <p>
             Click on any skill below to find out more about my experience.
           </p>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <button className="btn-sm btn-primary">WordPress</button>
             <button className="btn-sm btn-primary">PHP</button>
             <button className="btn-sm btn-primary">JavaScript</button>
