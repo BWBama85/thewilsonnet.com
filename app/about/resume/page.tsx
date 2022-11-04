@@ -6,11 +6,6 @@ import {
   FaLinkedin,
   FaFacebook,
   FaTwitter,
-  FaInfoCircle,
-  FaRegCalendarAlt,
-  FaMapMarkerAlt,
-  FaRegListAlt,
-  FaArrowRight
 } from 'react-icons/fa'
 
 export default function Resume() {
@@ -262,7 +257,7 @@ export default function Resume() {
         </article>
       </div>
 
-      <aside className="col-span-1">
+      <aside className="hidden md:col-span-1 md:block">
         <TOC />
       </aside>
     </div>
