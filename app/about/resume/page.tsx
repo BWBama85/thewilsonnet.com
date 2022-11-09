@@ -1,3 +1,5 @@
+'use client'
+
 import TOC from '../../tableofcontents';
 import Link from 'next/link';
 import {
