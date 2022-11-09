@@ -1,3 +1,4 @@
+'use client'
 import {
   FaGithub,
   FaGit,
@@ -21,44 +22,52 @@ export default function Home() {
       />
       <div className="text-center">
         <h1 className="text-4xl font-bold my-3">Brent Wilson</h1>
-        <p className="">
-          Webmaster, technology fanatic, owned by my cat Astro.
-        </p>
+        <p>Webmaster & technology fanatic</p>
         <div className="flex gap-4 justify-center my-3 text-2xl">
-          <Link
-            href="https://github.com/BWBama85"
-            target="_blank"
-            title="GitHub">
-            <FaGithub />
-          </Link>
-          <Link
-            href="https://git.thewilsonnet.com/"
-            target="_blank"
-            title="Gitea"
-          >
-            <FaGit />
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/brent-wilson-3a1463159/"
-            target="_blank"
-            title="LinkedIn"
-          >
-            <FaLinkedin />
-          </Link>
-          <Link
-            href="https://www.facebook.com/brentwilson85"
-            target="_blank"
-            title="Facebook"
-          >
-            <FaFacebook />
-          </Link>
-          <Link
-            href='https://twitter.com/brentwilson85'
-            target="_blank"
-            title="Twitter"
-          >
-            <FaTwitter />
-          </Link>
+          <div>
+            <Link
+              href="https://github.com/BWBama85"
+              target="_blank"
+              title="GitHub">
+              <FaGithub />
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://git.thewilsonnet.com/"
+              target="_blank"
+              title="Gitea"
+            >
+              <FaGit />
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://www.linkedin.com/in/brent-wilson-3a1463159/"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <FaLinkedin />
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="https://www.facebook.com/brentwilson85"
+              target="_blank"
+              title="Facebook"
+            >
+              <FaFacebook />
+            </Link>
+          </div>
+          <div>
+            <Link
+              href='https://twitter.com/brentwilson85'
+              target="_blank"
+              title="Twitter"
+            >
+              <FaTwitter />
+            </Link>
+          </div>
         </div>
       </div>
       <div className="divider"></div>

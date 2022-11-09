@@ -63,7 +63,7 @@ function useInViewId(postSelector: string, headingSelector: string) {
 
       const inView = Array.from(inViewSet.entries())
         .map(([id, el]) => [id, el.offsetTop] as const)
-        .filter(([id, _]) => !!id);
+        .filter(([id]) => !!id);
 
       if (inView.length > 0) {
         setInViewId(
@@ -105,7 +105,9 @@ function getNestedHeadings(headings: readonly HTMLHeadingElement[]): HEntry[] {
       let last = traversalStack[traversalStack.length - 1];
       hLevel <= last.level;
       traversalStack.pop(), last = traversalStack[traversalStack.length - 1]
-    ) { }
+    ) {
+      // do nothing
+    }
 
     const last = traversalStack[traversalStack.length - 1];
     last.items = last.items || [];
