@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import classNames from "classnames";
 
 function H({
@@ -36,7 +36,7 @@ function H({
         {entry.text}
       </a>
       {entry.items && (
-        <ul className="lg:pl-5 lg:list-inside">
+        <ul className="md:pl-5 md:list-inside">
           {entry.items.map((h) => (
             <li key={h.id}>
               <H entry={h} inView={inView} scroll={scroll} onClick={onClick} />
@@ -173,7 +173,7 @@ export default function TOC({
           <div className="card-title">
             Table of Contents
           </div>
-          <ul className="md:space-y-2 md:list-inside">
+          <ul className="md:list-inside">
             {headings.map((h) => (
               <li key={h.id}>
                 <H
