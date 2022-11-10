@@ -94,10 +94,10 @@ export default function Resume() {
                 Linux System Administration
               </p>
               <p>
-                Installed, configured, and maintained services such as DNS, NFS, Nginx, Samba, SSH, RPM, YUM, PHP, MariaDB, Redis, Memcached utilizing the Centmin Mod LEMP stack.
+                Installed, configured, and maintained services such as DNS, NFS, Nginx, Samba, SSH, RPM, YUM, PHP, MariaDB, Redis, and Memcached utilizing the Centmin Mod LEMP stack.
                 Secured the server using Cloudflare Zero Trust, closing all ports on the server and only allowing access via Cloudflare through the Cloudflared daemon.
-                Optimized Nginx, PHP, and MariaDB for high performance in tandem with Cloudflare caching services.
-                Server handles over 60,000+ unique visitors during peak traffic season.
+                Optimized Nginx, PHP, and MariaDB for high performance with Cloudflare caching services.
+                The server handles over 60,000+ unique visitors during peak traffic days.
               </p>
             </li>
             <li>
@@ -219,6 +219,21 @@ export default function Resume() {
             Discovered a strong interest in online communities as a Junior in High School. Turned my interest in computers and Ford Mustangs into a online community
             for people who wanted to network with other Ford Mustang owners locally and around the world.
           </p>
+          <p className="font-bold">
+            Disrupter & Leader
+          </p>
+          <p>
+            Grew Mustang Evolution from zero users to tens of thousands of members, creating a vibrant online community for visitors to network and find help
+            modifying and fixing their Ford Mustangs. Expanded from a simple online forum into a full CMS, managing credentialed automotive journalists covering the Ford Motor Company.
+          </p>
+          <p className="font-bold">
+            Sold
+          </p>
+          <p>
+            Negotiated the sale of 50 percent of Mustang Evolution to Social Knowledge, LLC, a leading social media company.
+            Worked with Social Knowledge to continue to grow Mustang Evolution and other Social Knowledge properties.
+            Negotiated the sale of the remaining 50 percent of Mustang Evolution in April of 2012.
+          </p>
           <h3 id="dominos">Customer Service Representative, Domino&apos;s Pizza</h3>
           <div className="flex flex-wrap gap-3">
             <span className="badge p-3">Huntsville, AL</span>
@@ -243,7 +258,7 @@ export default function Resume() {
           <p>
             Attended Calhoun Community College and Athens State University. Left school to work full time on Mustangevolution.com.
           </p>
-
+          {/*
           <h2 id="skills">Skill Sets</h2>
           <p>
             Click on any skill below to find out more about my experience.
@@ -253,9 +268,9 @@ export default function Resume() {
             <button className="btn-sm btn-primary">PHP</button>
             <button className="btn-sm btn-primary">JavaScript</button>
           </div>
+*/}
         </article>
       </div>
-
       <aside className="hidden md:col-span-1 md:block">
         <TOC />
       </aside>

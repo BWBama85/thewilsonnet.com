@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </div>
       <div className="divider"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 mb-4">
         <div className="hero bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
@@ -78,10 +78,11 @@ export default function Home() {
               <p className="py-6">
                 A Webmaster since I was 17-years-old, I have built and managed some of the largest community driven websites on the internet.
               </p>
-              <Link href="/about" title="About Brent Wilson" className="btn btn-primary">Learn More</Link>
+              <Link href="/about/resume" title="About Brent Wilson" className="btn btn-primary">Learn More</Link>
             </div>
           </div>
         </div>
+        {/*
         <div className="hero bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
@@ -104,6 +105,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+*/}
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="page" className="container mx-auto w-full px-4">
           {children}
         </main>
-        <Foot />
+        {/* <Foot /> */}
       </body>
     </html>
   )
