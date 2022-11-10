@@ -7,6 +7,7 @@ import {
 } from 'react-icons/fa'
 import Link from 'next/link';
 import Image from 'next/image';
+
 export default function About() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
