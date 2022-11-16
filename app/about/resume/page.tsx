@@ -7,7 +7,7 @@ export default function Resume() {
 
   return (
     <article className="prose max-w-none mx-4 xl:w-full bg-base-200 p-4 rounded-3xl xl:relative xl:mx-0">
-      <h1>Richard Brent Wilson&apos;s Resume</h1>
+      <h1 className="xl:mt-20">Richard Brent Wilson&apos;s Resume</h1>
       <div className="divider"></div>
 
       <div className="flex flex-wrap gap-3">

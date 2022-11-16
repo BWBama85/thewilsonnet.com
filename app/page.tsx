@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <article className="prose max-w-none mx-4 xl:w-full bg-base-200 p-4 rounded-3xl xl:relative xl:mx-0">
-      <h1>The Wilson Net</h1>
+      <h1 className="xl:mt-20">The Wilson Net</h1>
       <div className="divider"></div>
       <p>
         This is my little piece of the internet where I showcase all the cool technology I interact with on a day to day basis as well as other hobbies I enjoy.
