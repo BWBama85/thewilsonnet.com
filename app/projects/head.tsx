@@ -1,12 +1,12 @@
 import { NextSeo } from 'next-seo';
-import { NEXT_SEO_DEFAULT } from './next-seo.config';
+import { NEXT_SEO_DEFAULT } from '../next-seo.config';
 import type { NextSeoProps } from 'next-seo';
 
 export default function Head() {
   const updateMeta: NextSeoProps = {
     ...NEXT_SEO_DEFAULT,
-    title: 'The Wilson Net by Brent Wilson',
-    description: 'The Wilson Net is a place for Brent Wilson to showcase his life.',
+    title: 'Brent Wilson\'s Projects',
+    description: 'A look at the work and hobby related projects Brent Wilson has completed.',
     titleTemplate: '%s',
   };
   return (

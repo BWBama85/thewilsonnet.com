@@ -18,9 +18,11 @@ function sidebar() {
         rounded-3xl 
         items-center
         p-8
+        mx-4
         lg:self-start 
         lg:sticky 
         lg:top-8
+        lg:mx-0
       "
     >
       <div className="flex justify-start items-center gap-4 lg:flex-col">

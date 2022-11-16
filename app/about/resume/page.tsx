@@ -1,10 +1,12 @@
 // import TOC from '../tableofcontents';
 import Link from 'next/link';
+// import { NextSeo } from 'next-seo';
+// import { NEXT_SEO_DEFAULT } from '../../next-seo.config'; // your path will vary
 
 export default function Resume() {
 
   return (
-    <article className="prose max-w-none lg:w-full bg-base-200 p-4 rounded-3xl lg:relative">
+    <article className="prose max-w-none mx-4 lg:w-full bg-base-200 p-4 rounded-3xl lg:relative lg:mx-0">
       <h1>Richard Brent Wilson&apos;s Resume</h1>
       <div className="divider"></div>
 

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <article className="prose max-w-none lg:w-full bg-base-200 p-4 rounded-3xl lg:relative">
+    <article className="prose max-w-none mx-4 lg:w-full bg-base-200 p-4 rounded-3xl lg:relative lg:mx-0">
       <h1>The Wilson Net</h1>
       <div className="divider"></div>
       <p>

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <article className="prose max-w-none lg:w-full bg-base-200 p-4 rounded-3xl lg:relative">
+    <article className="prose max-w-none mx-4 lg:w-full bg-base-200 p-4 rounded-3xl lg:relative lg:mx-0">
 
       <h1>About Brent Wilson</h1>
       <div className="divider"></div>
