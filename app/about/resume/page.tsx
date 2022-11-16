@@ -6,14 +6,14 @@ import Link from 'next/link';
 export default function Resume() {
 
   return (
-    <article className="prose max-w-none mx-4 lg:w-full bg-base-200 p-4 rounded-3xl lg:relative lg:mx-0">
+    <article className="prose max-w-none mx-4 xl:w-full bg-base-200 p-4 rounded-3xl xl:relative xl:mx-0">
       <h1>Richard Brent Wilson&apos;s Resume</h1>
       <div className="divider"></div>
 
       <div className="flex flex-wrap gap-3">
-        <span className="badge badge-md lg:badge-lg">brent@thewilsonnet.com</span>
-        <span className="badge badge-md lg:badge-lg">256-316-9678</span>
-        <span className="badge badge-md lg:badge-lg">Huntsville, AL</span>
+        <span className="badge badge-md xl:badge-lg">brent@thewilsonnet.com</span>
+        <span className="badge badge-md xl:badge-lg">256-316-9678</span>
+        <span className="badge badge-md xl:badge-lg">Huntsville, AL</span>
       </div>
 
       <p>

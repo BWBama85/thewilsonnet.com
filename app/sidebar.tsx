@@ -19,14 +19,14 @@ function sidebar() {
         items-center
         p-8
         mx-4
-        lg:self-start 
-        lg:sticky 
-        lg:top-8
-        lg:mx-0
+        xl:self-start 
+        xl:sticky 
+        xl:top-8
+        xl:mx-0
       "
     >
-      <div className="flex justify-start items-center gap-4 lg:flex-col">
-        <figure className="avatar w-32 h-32 lg:w-48 lg:h-48">
+      <div className="flex justify-start items-center gap-4 xl:flex-col">
+        <figure className="avatar w-32 h-32 xl:w-48 xl:h-48">
           <Image
             className="rounded-xl"
             alt="Brent Wilson"

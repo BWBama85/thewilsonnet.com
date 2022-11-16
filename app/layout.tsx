@@ -24,12 +24,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             flex-col 
             container
             mx-auto
+            mb-4
             gap-3
-            lg:flex-row
-            lg:justify-center 
-            lg:gap-6 
-            lg:my-14 
-            lg:w-full
+            xl:flex-row
+            xl:justify-center 
+            xl:gap-6 
+            xl:my-14 
+            xl:w-full
           "
         >
           <Nav />
