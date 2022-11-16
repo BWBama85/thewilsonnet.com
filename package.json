@@ -11,11 +11,13 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "classnames": "^2.3.2",
+    "contentful": "^10.0.0-beta-v10.8",
     "daisyui": "^2.38.0",
-    "next": "^13.0.3-canary.3",
+    "next": "^13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.0.2",
@@ -23,6 +25,7 @@
     "@types/node": "^18.11.8",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "autoprefixer": "^10.4.12",

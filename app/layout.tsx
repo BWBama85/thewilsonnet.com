@@ -1,17 +1,32 @@
 import './globals.css'
-import Nav from '../components/navbar'
-import Foot from '../components/footer'
+import Sidebar from './sidebar'
+import Nav from './navbar'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head />
       <body>
-        <Nav />
-        <main id="page" className="container mx-auto w-full px-4">
+        <main
+          id="page"
+          className="
+            relative
+            flex 
+            flex-col 
+            container
+            mx-auto
+            gap-3
+            lg:flex-row
+            lg:justify-center 
+            lg:gap-6 
+            lg:my-14 
+            lg:w-full
+          "
+        >
+          <Nav />
+          <Sidebar />
           {children}
         </main>
-        {/* <Foot /> */}
       </body>
     </html>
   )
