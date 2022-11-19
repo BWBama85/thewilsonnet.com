@@ -5,7 +5,7 @@ export default function About() {
   return (
     <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 2xl:relative 2xl:mx-0 2xl:w-full">
 
-      <h1 className="2xl:mt-20">About Brent Wilson</h1>
+      <h1>About Brent Wilson</h1>
       <div className="divider"></div>
       <div className="2xl:flex">
         <Image

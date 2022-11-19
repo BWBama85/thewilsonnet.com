@@ -1,20 +1,19 @@
-'use client'
+'use client';
 
-import { useEffect, useRef, useState } from "react";
-import classNames from "classnames";
+import { useEffect, useRef, useState } from 'react';
+import classNames from 'classnames';
 
 function H({
   entry,
   inView,
   scroll,
-  onClick
+  onClick,
 }: {
   entry: HEntry;
   inView: string | undefined;
   scroll: (to: number) => void;
   onClick?: () => void;
 }) {
-
   const aRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
@@ -27,7 +26,10 @@ function H({
     <>
       <a
         href={`#${entry.id}`}
-        className={classNames("h", entry.id === inView ? "link-accent" : undefined)}
+        className={classNames(
+          'h',
+          entry.id === inView ? 'link-accent' : undefined
+        )}
         ref={aRef}
         onClick={() => {
           onClick?.();
@@ -36,7 +38,7 @@ function H({
         {entry.text}
       </a>
       {entry.items && (
-        <ul className="md:pl-5 md:list-inside">
+        <ul className="md:list-inside md:pl-5">
           {entry.items.map((h) => (
             <li key={h.id}>
               <H entry={h} inView={inView} scroll={scroll} onClick={onClick} />
@@ -73,8 +75,8 @@ function useInViewId(postSelector: string, headingSelector: string) {
     };
 
     const observer = new IntersectionObserver(callback, {
-      rootMargin: "0px",
-      threshold: 1.0
+      rootMargin: '0px',
+      threshold: 1.0,
     });
 
     for (const el of document
@@ -96,7 +98,7 @@ interface HEntry {
 }
 
 function getNestedHeadings(headings: readonly HTMLHeadingElement[]): HEntry[] {
-  const sentinel: HEntry = { text: "", id: "", level: 0 };
+  const sentinel: HEntry = { text: '', id: '', level: 0 };
   const traversalStack: HEntry[] = [sentinel];
 
   for (const h of headings) {
@@ -112,7 +114,7 @@ function getNestedHeadings(headings: readonly HTMLHeadingElement[]): HEntry[] {
     const last = traversalStack[traversalStack.length - 1];
     last.items = last.items || [];
     last.items.push({
-      text: h.textContent || "",
+      text: h.textContent || '',
       id: h.id,
       level: hLevel,
     });
@@ -150,9 +152,8 @@ export default function TOC({
   postSelector?: string;
   headingSelector?: string;
 }) {
-
-  postSelector = postSelector || "#page";
-  headingSelector = headingSelector || "h2,h3,h4,h5,h6";
+  postSelector = postSelector || '#page';
+  headingSelector = headingSelector || 'h2,h3,h4,h5,h6';
 
   const { headings } = useHeadingsData(postSelector, headingSelector);
   const { inViewId } = useInViewId(postSelector, headingSelector);
@@ -162,7 +163,7 @@ export default function TOC({
   function scroll(to: number) {
     scrollRef.current?.scroll({
       top: to - 75,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   }
 
@@ -170,17 +171,11 @@ export default function TOC({
     <nav className="md:sticky md:top-2">
       <div className="card w-full bg-neutral text-neutral-content shadow-xl">
         <div className="card-body">
-          <div className="card-title">
-            Table of Contents
-          </div>
+          <div className="card-title">Table of Contents</div>
           <ul className="md:list-inside">
             {headings.map((h) => (
               <li key={h.id}>
-                <H
-                  entry={h}
-                  inView={inViewId}
-                  scroll={scroll}
-                />
+                <H entry={h} inView={inViewId} scroll={scroll} />
               </li>
             ))}
           </ul>

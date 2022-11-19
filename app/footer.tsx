@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Foot() {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content md:justify-evenly justify-center">
+    <footer className="footer justify-center bg-neutral p-10 text-neutral-content md:justify-evenly">
       <Image
         className="mask mask-squircle mx-auto"
         alt="Brent Wilson"
@@ -19,31 +19,31 @@ export default function Foot() {
 
       <div>
         <span className="footer-title">Services</span>
-        <a className="link link-hover">Web Hosting</a>
-        <a className="link link-hover">WordPress</a>
-        <a className="link link-hover">XenForo</a>
-        <a className="link link-hover">Other</a>
+        <a className="link-hover link">Web Hosting</a>
+        <a className="link-hover link">WordPress</a>
+        <a className="link-hover link">XenForo</a>
+        <a className="link-hover link">Other</a>
       </div>
       <div>
         <span className="footer-title">About Me</span>
-        <a className="link link-hover">Biography</a>
+        <a className="link-hover link">Biography</a>
         <Link
           href="/about/resume"
           title="Brent Wilson's Resume"
-          className="link link-hover"
+          className="link-hover link"
         >
           Resume
         </Link>
-        <a className="link link-hover">Projects</a>
-        <a className="link link-hover">Services</a>
+        <a className="link-hover link">Projects</a>
+        <a className="link-hover link">Services</a>
       </div>
       <div>
         <span className="footer-title">Misc</span>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">About This Website</a>
-        <a className="link link-hover">Terms of Use</a>
-        <a className="link link-hover">Privacy Policy</a>
+        <a className="link-hover link">Contact</a>
+        <a className="link-hover link">About This Website</a>
+        <a className="link-hover link">Terms of Use</a>
+        <a className="link-hover link">Privacy Policy</a>
       </div>
     </footer>
-  )
+  );
 }

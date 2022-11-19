@@ -1,7 +1,3 @@
 export default function ChristianityBoard() {
-  return (
-    <div>
-      Test
-    </div>
-  )
+  return <div>Test</div>;
 }

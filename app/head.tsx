@@ -6,10 +6,9 @@ export default function Head() {
   const updateMeta: NextSeoProps = {
     ...NEXT_SEO_DEFAULT,
     title: 'The Wilson Net by Brent Wilson',
-    description: 'The Wilson Net is a place for Brent Wilson to showcase his life.',
+    description:
+      'The Wilson Net is a place for Brent Wilson to showcase his life.',
     titleTemplate: '%s',
   };
-  return (
-    <NextSeo {...updateMeta} useAppDir={true} />
-  )
+  return <NextSeo {...updateMeta} useAppDir={true} />;
 }
