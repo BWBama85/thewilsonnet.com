@@ -46,11 +46,12 @@ export default function Home() {
       <h2>Notable Projects & Jobs</h2>
       <div className="flex flex-wrap items-stretch gap-4">
         <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
-          <figure className="relative mx-auto mt-4 h-20 w-32 px-4">
+          <figure className="mx-auto mt-4 h-20 px-4">
             <Image
               src="/bamapolitics_logo.png"
               alt="Mustang Evolution logo"
-              fill
+              width={128}
+              height={80}
             />
           </figure>
           <div className="card-body items-center text-center">
@@ -71,11 +72,12 @@ export default function Home() {
           </div>
         </div>
         <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
-          <figure className="relative mx-auto mt-4 h-20 w-72 px-4">
+          <figure className="mx-auto mt-4 h-20 px-4">
             <Image
               src="/christianforums_logo_text.png"
               alt="Christian Forums logo"
-              fill
+              width={256}
+              height={36}
             />
           </figure>
           <div className="card-body items-center text-center">
@@ -90,11 +92,12 @@ export default function Home() {
           </div>
         </div>
         <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
-          <figure className="relative mx-auto mt-4 h-20 w-56 px-4">
+          <figure className="mx-auto mt-4 h-20 px-4">
             <Image
               src="/mustangevolution_logo.svg"
               alt="Mustang Evolution logo"
-              fill
+              width={192}
+              height={39}
             />
           </figure>
           <div className="card-body items-center text-center">
