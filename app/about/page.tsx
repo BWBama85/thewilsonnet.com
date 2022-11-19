@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 xl:relative xl:mx-0 xl:w-full">
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 2xl:relative 2xl:mx-0 2xl:w-full">
 
-      <h1 className="xl:mt-20">About Brent Wilson</h1>
+      <h1 className="2xl:mt-20">About Brent Wilson</h1>
       <div className="divider"></div>
-      <div className="xl:flex">
+      <div className="2xl:flex">
         <Image
           src="/kaylaandi_crop.jpg"
-          className="mx-auto rounded-2xl xl:mx-0"
+          className="mx-auto rounded-2xl 2xl:mx-0"
           alt="Kayla and Brent"
           width={200}
           height={200}

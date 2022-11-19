@@ -26,11 +26,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             mx-auto
             mb-4
             gap-3
-            xl:flex-row
-            xl:justify-center 
-            xl:gap-6 
-            xl:my-14 
-            xl:w-full
+            2xl:flex-row
+            2xl:justify-center 
+            2xl:gap-6 
+            2xl:my-14 
+            2xl:w-full
           "
         >
           <Nav />

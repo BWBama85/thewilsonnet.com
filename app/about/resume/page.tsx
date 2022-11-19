@@ -1,19 +1,16 @@
-// import TOC from '../tableofcontents';
 import Link from 'next/link';
-// import { NextSeo } from 'next-seo';
-// import { NEXT_SEO_DEFAULT } from '../../next-seo.config'; // your path will vary
 
 export default function Resume() {
 
   return (
-    <article className="prose max-w-none mx-4 xl:w-full bg-base-200 p-4 rounded-3xl xl:relative xl:mx-0">
-      <h1 className="xl:mt-20">Richard Brent Wilson&apos;s Resume</h1>
+    <article className="prose max-w-none mx-4 2xl:w-full bg-base-200 p-4 rounded-3xl 2xl:relative 2xl:mx-0">
+      <h1 className="2xl:mt-20">Richard Brent Wilson&apos;s Resume</h1>
       <div className="divider"></div>
 
       <div className="flex flex-wrap gap-3">
-        <span className="badge badge-md xl:badge-lg">brent@thewilsonnet.com</span>
-        <span className="badge badge-md xl:badge-lg">256-316-9678</span>
-        <span className="badge badge-md xl:badge-lg">Huntsville, AL</span>
+        <span className="badge badge-md 2xl:badge-lg">brent@thewilsonnet.com</span>
+        <span className="badge badge-md 2xl:badge-lg">256-316-9678</span>
+        <span className="badge badge-md 2xl:badge-lg">Huntsville, AL</span>
       </div>
 
       <p>

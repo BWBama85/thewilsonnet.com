@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import {
   FaGithub,
   FaGit,
   FaLinkedin,
   FaFacebook,
-  FaTwitter
-} from 'react-icons/fa'
+  FaTwitter,
+} from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,19 +14,19 @@ function sidebar() {
     <aside
       id="sidebar"
       className="
-        bg-base-200
-        rounded-3xl 
-        items-center
-        p-8
         mx-4
-        xl:self-start 
-        xl:sticky 
-        xl:top-8
-        xl:mx-0
+        items-center 
+        rounded-3xl
+        bg-base-200
+        p-8
+        2xl:sticky 
+        2xl:top-8 
+        2xl:mx-0
+        2xl:self-start
       "
     >
-      <div className="flex justify-start items-center gap-4 xl:flex-col">
-        <figure className="avatar w-32 h-32 xl:w-48 xl:h-48">
+      <div className="flex items-center justify-start gap-4 2xl:flex-col">
+        <figure className="avatar h-32 w-32 2xl:h-48 2xl:w-48">
           <Image
             className="rounded-xl"
             alt="Brent Wilson"
@@ -36,17 +36,18 @@ function sidebar() {
           />
         </figure>
         <div className="text-center">
-          <p className="text-2xl font-bold mb-4">Brent Wilson</p>
+          <p className="mb-4 text-2xl font-bold">Brent Wilson</p>
           <div className="badge badge-lg">Webmaster</div>
         </div>
       </div>
       <div className="divider"></div>
-      <div className="flex gap-4 justify-center text-2xl">
+      <div className="flex justify-center gap-4 text-2xl">
         <div>
           <Link
             href="https://github.com/BWBama85"
             target="_blank"
-            title="GitHub">
+            title="GitHub"
+          >
             <FaGithub />
           </Link>
         </div>
@@ -79,7 +80,7 @@ function sidebar() {
         </div>
         <div>
           <Link
-            href='https://twitter.com/brentwilson85'
+            href="https://twitter.com/brentwilson85"
             target="_blank"
             title="Twitter"
           >
@@ -88,7 +89,7 @@ function sidebar() {
         </div>
       </div>
     </aside>
-  )
+  );
 }
 
-export default sidebar
+export default sidebar;

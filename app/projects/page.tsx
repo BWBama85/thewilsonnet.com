@@ -1,8 +1,8 @@
 export default function Projects() {
   return (
-    <article className="prose max-w-none mx-4 xl:w-full bg-base-200 p-4 rounded-3xl xl:relative xl:mx-0">
+    <article className="prose max-w-none mx-4 2xl:w-full bg-base-200 p-4 rounded-3xl 2xl:relative 2xl:mx-0">
 
-      <h1 className="xl:mt-20">Projects</h1>
+      <h1 className="2xl:mt-20">Projects</h1>
       <div className="divider"></div>
       <p>
         Coming Soon
