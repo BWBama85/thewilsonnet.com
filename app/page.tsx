@@ -87,7 +87,13 @@ export default function Home() {
               Group Net, LLC until July 2022.
             </p>
             <div className="card-actions">
-              <button className="btn-primary btn">View</button>
+              <Link
+                className="btn-primary btn"
+                href="/projects/christianforums"
+                title="Project Christian Forums"
+              >
+                View
+              </Link>
             </div>
           </div>
         </div>
