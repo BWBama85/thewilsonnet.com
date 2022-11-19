@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 2xl:relative 2xl:mx-0 2xl:w-full">
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
       <h1>The Wilson Net</h1>
       <div className="divider"></div>
       <p>
@@ -45,7 +45,7 @@ export default function Home() {
       </p>
       <h2>Notable Projects & Jobs</h2>
       <div className="flex flex-wrap items-stretch gap-4">
-        <div className="not-prose card compact w-80 bg-base-100 shadow-xl 2xl:grow">
+        <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
           <figure className="relative mx-auto mt-4 h-20 w-32 px-4">
             <Image
               src="/bamapolitics_logo.png"
@@ -60,11 +60,17 @@ export default function Home() {
               Alabama.
             </p>
             <div className="card-actions">
-              <button className="btn-primary btn">View</button>
+              <Link
+                className="btn-primary btn"
+                href="/projects/bamapolitics"
+                title="Project Bama Politics"
+              >
+                View
+              </Link>
             </div>
           </div>
         </div>
-        <div className="not-prose card compact w-80 bg-base-100 shadow-xl 2xl:grow">
+        <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
           <figure className="relative mx-auto mt-4 h-20 w-72 px-4">
             <Image
               src="/christianforums_logo_text.png"
@@ -83,7 +89,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="not-prose card compact w-80 bg-base-100 shadow-xl 2xl:grow">
+        <div className="not-prose card compact w-80 bg-base-100 shadow-xl lg:grow">
           <figure className="relative mx-auto mt-4 h-20 w-56 px-4">
             <Image
               src="/mustangevolution_logo.svg"

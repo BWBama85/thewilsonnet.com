@@ -2,13 +2,10 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <nav className="bg-primary text-primary-content 2xl:absolute 2xl:top-0 2xl:right-0 2xl:left-auto 2xl:bottom-auto 2xl:z-10 2xl:rounded-bl-lg 2xl:rounded-br-none">
-      <div className="flex justify-center 2xl:text-xl">
+    <nav className="bg-primary text-primary-content lg:absolute lg:top-0 lg:right-0 lg:left-auto lg:bottom-auto lg:z-10 lg:rounded-bl-lg lg:rounded-br-none">
+      <div className="flex justify-center lg:text-xl">
         <div>
-          <Link
-            className="btn-primary btn xl:btn-lg 2xl:rounded-bl-lg"
-            href="/"
-          >
+          <Link className="btn-primary btn lg:rounded-bl-lg xl:btn-lg" href="/">
             Home
           </Link>
         </div>
