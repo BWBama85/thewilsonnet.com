@@ -61,8 +61,7 @@ export default function BamaPolitics() {
           <p>
             Converted over 60GB of MySQL data from the vBulletin platform to the
             XenForo platform while documenting and troubleshooting the migration
-            from vBulletin to XenForo locally before doing the final live
-            migration.
+            locally before doing the final live migration.
           </p>
         </li>
         <li>
