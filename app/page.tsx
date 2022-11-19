@@ -51,7 +51,7 @@ export default function Home() {
               src="/bamapolitics_logo.png"
               alt="Mustang Evolution logo"
               width={128}
-              height={80}
+              height={84}
             />
           </figure>
           <div className="card-body items-center text-center">
