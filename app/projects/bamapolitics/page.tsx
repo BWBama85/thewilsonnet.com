@@ -8,7 +8,7 @@ export default function BamaPolitics() {
       <div className="divider"></div>
       <Image
         src="/bamapolitics_logo.png"
-        className="float-left mx-auto rounded-2xl lg:ml-0 lg:mr-4"
+        className="mx-auto rounded-2xl lg:float-left lg:ml-0 lg:mr-4"
         alt="Bama Politics Logo"
         width={258}
         height={170}
