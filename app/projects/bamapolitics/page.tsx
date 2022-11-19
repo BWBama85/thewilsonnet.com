@@ -38,6 +38,13 @@ export default function BamaPolitics() {
         find.
       </p>
       <p>
+        The website is built on WordPress and includes custom plugins coded by
+        me to provide a unique experience for visitors. For example, a visitor
+        can register on BamaPolitics and follow a page and receive an email when
+        that page is updated, keeping visitors engaged with what is happening in
+        political areas that concern them.
+      </p>
+      <p>
         Today, Bama Politics boasts an impressive database of information such
         as:
       </p>
@@ -77,7 +84,196 @@ export default function BamaPolitics() {
             .
           </p>
         </li>
+        <li>
+          <p>
+            Tracking and storing legislative bills from{' '}
+            <Link
+              href="https://www.bamapolitics.com/alabama/bills/"
+              title="Alabama Legislative Bills"
+              target="_blank"
+            >
+              dating back to 2010.
+            </Link>
+          </p>
+        </li>
+        <li>
+          <p>
+            Covering elections and their results{' '}
+            <Link
+              href="https://www.bamapolitics.com/alabama/alabama-elections/"
+              title="Alabama Elections"
+              target="_blank"
+            >
+              dating back to 2006.
+            </Link>
+          </p>
+        </li>
       </ul>
+      <p>
+        Having all that data is nice, but making sure it is displayed in a user
+        friendly way is important as well.
+      </p>
+      <p>
+        Great attention was paid to the structure of the website. Examples
+        include:
+      </p>
+      <ul>
+        <li>
+          <p>Breaking down elected leaders by the type of office they hold.</p>
+          <ul>
+            <li>
+              <p>
+                View all{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/#alabama-statewide-officials"
+                  title="Alabama Statewide Officials"
+                  target="_blank"
+                >
+                  Statewide Officials
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/#alabama-us-senators"
+                  title="Alabama U.S. Senators"
+                  target="_blank"
+                >
+                  Alabama U.S. Senators
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/#alabama-supreme-court"
+                  title="Alabama Supreme Court"
+                  target="_blank"
+                >
+                  Alabama Supreme Court
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/#alabama-board-of-education"
+                  title="Alabama Board of Education"
+                  target="_blank"
+                >
+                  Alabama Board of Education
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/#alabama-us-representatives"
+                  title="Alabama U.S. Representatives"
+                  target="_blank"
+                >
+                  Alabama U.S. Representatives
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/alabama-state-senators/"
+                  title="Alabama State Senators"
+                  target="_blank"
+                >
+                  Alabama State Senators
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/alabama-state-representatives/"
+                  title="Alabama State Represenatives"
+                  target="_blank"
+                >
+                  Alabama State Represenatives
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/list-of-alabama-sheriffs/"
+                  title="Alabama County Sheriffs"
+                  target="_blank"
+                >
+                  Alabama County Sheriffs
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/list-of-alabama-probate-judges/"
+                  title="Alabama Probate Judges"
+                  target="_blank"
+                >
+                  Alabama Probate Judges
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/list-of-alabama-mayors/"
+                  title="Alabama Mayors"
+                  target="_blank"
+                >
+                  Alabama Mayors
+                </Link>
+              </p>
+            </li>
+            <li>
+              <p>
+                View the{' '}
+                <Link
+                  href="https://www.bamapolitics.com/alabama/list-of-alabama-city-council-members/"
+                  title="Alabama Council Members for Municipalities"
+                  target="_blank"
+                >
+                  Alabama Council Members for Municipalities
+                </Link>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        What started out as just a side project has turned into an sustainable
+        second income for me while also allowing me to make an impact in my
+        state. On peak traffic days, during the legsilative session and during
+        elections, the website reaches over 60,000 unique visitors a day with
+        income reaching up to $600 a day with adsense.{' '}
+      </p>
+      <p>
+        The site runs on a $54 a month OVH server running the{' '}
+        <Link
+          href="https://www.centminmod.com"
+          title="CentminMod"
+          target="_blank"
+        >
+          CentminMod server stack
+        </Link>
+        .
+      </p>
     </article>
   );
 }
