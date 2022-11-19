@@ -5,7 +5,10 @@ export default function Nav() {
     <nav className="bg-primary text-primary-content 2xl:absolute 2xl:top-0 2xl:right-0 2xl:left-auto 2xl:bottom-auto 2xl:z-10 2xl:rounded-bl-lg 2xl:rounded-br-none">
       <div className="flex justify-center 2xl:text-xl">
         <div>
-          <Link className="btn-primary btn xl:btn-lg 2xl:rounded-b-lg" href="/">
+          <Link
+            className="btn-primary btn xl:btn-lg 2xl:rounded-bl-lg"
+            href="/"
+          >
             Home
           </Link>
         </div>
