@@ -31,7 +31,8 @@ function sidebar() {
             className="rounded-xl"
             alt="Brent Wilson"
             src="/me.png"
-            fill
+            width={192}
+            height={192}
             priority
           />
         </figure>
