@@ -165,7 +165,7 @@ export default function BamaPolitics() {
       </p>
       <p>
         That lead me to becoming a part of Group Net, LLC, running some of the
-        largest online communities on the internet, specifically
+        largest online communities on the internet, specifically{' '}
         <Link
           href="/projects/christianforums"
           title="Christian Forums Project"
