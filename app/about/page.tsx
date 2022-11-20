@@ -24,6 +24,7 @@ export default function About() {
               title="Bama Politics"
               target="_blank"
               href="https://www.bamapolitics.com/"
+              className="link"
             >
               BamaPolitics.com
             </Link>
@@ -33,6 +34,7 @@ export default function About() {
               title="Mustang Evolution"
               target="_blank"
               href="https://www.mustangevolution.com"
+              className="link"
             >
               MustangEvolution.com
             </Link>

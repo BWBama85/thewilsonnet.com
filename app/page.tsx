@@ -10,7 +10,12 @@ export default function Home() {
         This is my little piece of the internet where I showcase all the cool
         technology I interact with on a day to day basis as well as other
         hobbies I enjoy. This website is built with{' '}
-        <Link href="https://nextjs.org/" title="Next.js" target="_blank">
+        <Link
+          href="https://nextjs.org/"
+          title="Next.js"
+          target="_blank"
+          className="link"
+        >
           Next.js 13
         </Link>
         ,{' '}
@@ -18,11 +23,17 @@ export default function Home() {
           href="https://tailwindcss.com/"
           title="Tailwind CSS"
           target="_blank"
+          className="link"
         >
           Tailwind CSS
         </Link>
         ,{' '}
-        <Link href="https://daisyui.com/" title="DaisyUI" target="_blank">
+        <Link
+          href="https://daisyui.com/"
+          title="DaisyUI"
+          target="_blank"
+          className="link"
+        >
           DaisyUI
         </Link>
         , and{' '}
@@ -30,6 +41,7 @@ export default function Home() {
           href="https://github.com/garmeeh/next-seo"
           title="Next SEO"
           target="_blank"
+          className="link"
         >
           Next SEO
         </Link>
@@ -38,6 +50,7 @@ export default function Home() {
           href="https://git.thewilsonnet.com/thewilsonnet/thewilsonnet.com"
           title="thewilsonnet.com gitea"
           target="_blank"
+          className="link"
         >
           on my Gitea
         </Link>
@@ -113,7 +126,13 @@ export default function Home() {
               2003. Negotiated sale of website in 2012.
             </p>
             <div className="card-actions">
-              <button className="btn-primary btn">View</button>
+              <Link
+                className="btn-primary btn"
+                href="/projects/mustangevolution"
+                title="Project Mustang Evolution"
+              >
+                View
+              </Link>
             </div>
           </div>
         </div>

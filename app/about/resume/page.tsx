@@ -36,6 +36,7 @@ export default function Resume() {
           href="https://www.bamapolitics.com"
           target="_blank"
           title="Bama Politics"
+          className="link"
         >
           BamaPolitics.com
         </Link>
@@ -155,6 +156,7 @@ export default function Resume() {
               href="https://www.christianforums.com/"
               title="Christian Forums"
               target="_blank"
+              className="link"
             >
               ChristianForums.com
             </Link>
@@ -166,6 +168,7 @@ export default function Resume() {
               href="https://www.religiousforums.com/"
               title="Religious Forums"
               target="_blank"
+              className="link"
             >
               ReligiousForums.com
             </Link>
@@ -177,6 +180,7 @@ export default function Resume() {
               href="https://www.baptistboard.com/"
               title="Baptist Board"
               target="_blank"
+              className="link"
             >
               BaptistBoard.com
             </Link>
@@ -188,6 +192,7 @@ export default function Resume() {
               href="https://www.christianityboard.com/"
               title="Christianity Board"
               target="_blank"
+              className="link"
             >
               ChristianityBoard.com
             </Link>

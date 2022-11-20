@@ -70,6 +70,7 @@ export default function BamaPolitics() {
               href="https://www.bamapolitics.com/alabama/counties/"
               title="Alabama Counties"
               target="_blank"
+              className="link"
             >
               67 Alabama Counties
             </Link>{' '}
@@ -78,6 +79,7 @@ export default function BamaPolitics() {
               href="https://www.bamapolitics.com/alabama/alabama-cities/"
               title="Alabama Cities"
               target="_blank"
+              className="link"
             >
               461 Alabama Municipalities
             </Link>
@@ -91,6 +93,7 @@ export default function BamaPolitics() {
               href="https://www.bamapolitics.com/alabama/bills/"
               title="Alabama Legislative Bills"
               target="_blank"
+              className="link"
             >
               dating back to 2010.
             </Link>
@@ -103,6 +106,7 @@ export default function BamaPolitics() {
               href="https://www.bamapolitics.com/alabama/alabama-elections/"
               title="Alabama Elections"
               target="_blank"
+              className="link"
             >
               dating back to 2006.
             </Link>
@@ -128,6 +132,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/#alabama-statewide-officials"
                   title="Alabama Statewide Officials"
                   target="_blank"
+                  className="link"
                 >
                   Statewide Officials
                 </Link>
@@ -140,6 +145,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/#alabama-us-senators"
                   title="Alabama U.S. Senators"
                   target="_blank"
+                  className="link"
                 >
                   Alabama U.S. Senators
                 </Link>
@@ -152,6 +158,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/#alabama-supreme-court"
                   title="Alabama Supreme Court"
                   target="_blank"
+                  className="link"
                 >
                   Alabama Supreme Court
                 </Link>
@@ -164,6 +171,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/#alabama-board-of-education"
                   title="Alabama Board of Education"
                   target="_blank"
+                  className="link"
                 >
                   Alabama Board of Education
                 </Link>
@@ -176,6 +184,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/#alabama-us-representatives"
                   title="Alabama U.S. Representatives"
                   target="_blank"
+                  className="link"
                 >
                   Alabama U.S. Representatives
                 </Link>
@@ -188,6 +197,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/alabama-state-senators/"
                   title="Alabama State Senators"
                   target="_blank"
+                  className="link"
                 >
                   Alabama State Senators
                 </Link>
@@ -200,6 +210,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/alabama-state-representatives/"
                   title="Alabama State Represenatives"
                   target="_blank"
+                  className="link"
                 >
                   Alabama State Represenatives
                 </Link>
@@ -212,6 +223,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/list-of-alabama-sheriffs/"
                   title="Alabama County Sheriffs"
                   target="_blank"
+                  className="link"
                 >
                   Alabama County Sheriffs
                 </Link>
@@ -224,6 +236,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/list-of-alabama-probate-judges/"
                   title="Alabama Probate Judges"
                   target="_blank"
+                  className="link"
                 >
                   Alabama Probate Judges
                 </Link>
@@ -236,6 +249,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/list-of-alabama-mayors/"
                   title="Alabama Mayors"
                   target="_blank"
+                  className="link"
                 >
                   Alabama Mayors
                 </Link>
@@ -248,6 +262,7 @@ export default function BamaPolitics() {
                   href="https://www.bamapolitics.com/alabama/list-of-alabama-city-council-members/"
                   title="Alabama Council Members for Municipalities"
                   target="_blank"
+                  className="link"
                 >
                   Alabama Council Members for Municipalities
                 </Link>
@@ -269,6 +284,7 @@ export default function BamaPolitics() {
           href="https://www.centminmod.com"
           title="CentminMod"
           target="_blank"
+          className="link"
         >
           CentminMod server stack
         </Link>
