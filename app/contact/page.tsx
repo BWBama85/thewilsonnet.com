@@ -44,7 +44,7 @@ export default function BamaPolitics() {
               <span className="label-text">Message</span>
             </label>
             <textarea
-              className="textarea-bordered textarea h-48"
+              className="textarea-bordered textarea h-48 w-full max-w-md"
               placeholder="Your message"
             ></textarea>
           </div>
