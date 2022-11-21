@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function BamaPolitics() {
+export default function MustangEvolution() {
   return (
     <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
-      <h1>Bama Politics</h1>
+      <h1>Mustang Evolution</h1>
       <div className="divider"></div>
       <Image
         src="/mustangevolution_logo.svg"
