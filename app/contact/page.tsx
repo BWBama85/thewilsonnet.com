@@ -1,6 +1,11 @@
 'use client';
 import { FormEvent, useState } from 'react';
 import { Turnstile } from '@marsidev/react-turnstile';
+import {
+  FaCheckCircle,
+  FaWindowClose,
+  FaExclamationCircle,
+} from 'react-icons/fa';
 
 export default function Contact() {
   let cfSiteKey: string;
@@ -127,42 +132,28 @@ export default function Contact() {
             Submit
           </button>
           {submitted === true && (
-            <div className="alert alert-success w-full max-w-md shadow-lg">
+            <div className="alert alert-success relative w-full max-w-md shadow-lg">
               <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 shrink-0 stroke-current"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                <FaCheckCircle className="h-6 w-6 shrink-0 stroke-current" />
                 <span>Your message has been sent.</span>
+              </div>
+              <div className="absolute top-1 right-2 bottom-auto left-auto">
+                <button onClick={() => setSubmitted(null)}>
+                  <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
+                </button>
               </div>
             </div>
           )}
           {submitted === false && (
-            <div className="alert alert-error shadow-lg">
+            <div className="alert alert-error relative w-full max-w-md shadow-lg">
               <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 shrink-0 stroke-current"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+                <FaExclamationCircle className="h-6 w-6 shrink-0 stroke-current" />
                 <span>Sorry, there was an error.</span>
+              </div>
+              <div className="absolute top-1 right-2 bottom-auto left-auto">
+                <button onClick={() => setSubmitted(null)}>
+                  <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
+                </button>
               </div>
             </div>
           )}
