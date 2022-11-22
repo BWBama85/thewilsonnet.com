@@ -133,27 +133,27 @@ export default function Contact() {
           </button>
           {submitted === true && (
             <div className="alert alert-success relative w-full max-w-md shadow-lg">
-              <div>
-                <FaCheckCircle className="h-6 w-6 shrink-0 stroke-current" />
-                <span>Your message has been sent.</span>
-              </div>
-              <div className="absolute top-1 right-2 bottom-auto left-auto">
+              <div className="absolute top-1 right-1 bottom-auto left-auto">
                 <button onClick={() => setSubmitted(null)}>
                   <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
                 </button>
+              </div>
+              <div>
+                <FaCheckCircle className="h-6 w-6 shrink-0 stroke-current" />
+                <span>Your message has been sent.</span>
               </div>
             </div>
           )}
           {submitted === false && (
             <div className="alert alert-error relative w-full max-w-md shadow-lg">
-              <div>
-                <FaExclamationCircle className="h-6 w-6 shrink-0 stroke-current" />
-                <span>Sorry, there was an error.</span>
-              </div>
-              <div className="absolute top-1 right-2 bottom-auto left-auto">
+              <div className="absolute top-1 right-1 bottom-auto left-auto">
                 <button onClick={() => setSubmitted(null)}>
                   <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
                 </button>
+              </div>
+              <div>
+                <FaExclamationCircle className="h-6 w-6 shrink-0 stroke-current" />
+                <span>Sorry, there was an error.</span>
               </div>
             </div>
           )}
