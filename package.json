@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "aws-sdk": "^2.1258.0",
+    "@aws-sdk/client-ses": "^3.213.0",
+    "@aws-sdk/credential-provider-node": "^3.212.0",
+    "@marsidev/react-turnstile": "^0.0.5",
     "classnames": "^2.3.2",
     "daisyui": "^2.38.0",
     "next": "^13.0.4",
@@ -23,6 +25,7 @@
     "@next/eslint-plugin-next": "^13.0.2",
     "@tailwindcss/typography": "^0.5.7",
     "@types/node": "^18.11.8",
+    "@types/nodemailer": "^6.4.6",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@types/uuid": "^8.3.4",
