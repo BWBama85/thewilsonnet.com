@@ -33,7 +33,7 @@ export default function ChristianityBoard() {
         At the time of the purchase, Christianity Board was running on an
         outdated version of{' '}
         <Link
-          href="https://www.https://invisioncommunity.com/.com/"
+          href="https://invisioncommunity.com/"
           title="Invision Power Board"
           target="_blank"
           className="link"
