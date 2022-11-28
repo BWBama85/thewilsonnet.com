@@ -63,6 +63,32 @@ export default function Projects() {
         <div className="not-prose card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
           <figure className="mx-auto mt-4 h-20 px-4">
             <Image
+              src="/religious_forums_logo.png"
+              alt="Religious Forums logo"
+              width={256}
+              height={36}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h3 className="card-title">ReligiousForums.com</h3>
+            <p>
+              Webmaster/COO of Religious Forums & other properties owned by
+              Group Net, LLC until July 2022.
+            </p>
+            <div className="card-actions">
+              <Link
+                className="btn-primary btn"
+                href="/projects/religiousforums"
+                title="Project Religious Forums"
+              >
+                View
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="not-prose card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
+          <figure className="mx-auto mt-4 h-20 px-4">
+            <Image
               src="/christianityboard_logo.png"
               alt="Christianity Board logo"
               width={256}
