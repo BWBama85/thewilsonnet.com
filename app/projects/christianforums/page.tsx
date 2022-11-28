@@ -102,7 +102,7 @@ export default function ChristianForums() {
             >
               Google Ad Manager
             </Link>{' '}
-            using 3rd party adnetworks. Eventually would move to AdThrive and
+            using 3rd party ad networks. Eventually would move to AdThrive and
             see our revenue increase by nearly 100 percent.
           </p>
         </li>
