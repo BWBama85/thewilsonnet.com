@@ -89,6 +89,32 @@ export default function Projects() {
         <div className="not-prose card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
           <figure className="mx-auto mt-4 h-20 px-4">
             <Image
+              src="/baptist_board_logo.png"
+              alt="Baptist Board logo"
+              width={256}
+              height={36}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h3 className="card-title">BaptistBoard.com</h3>
+            <p>
+              Webmaster/COO of Baptist Board & other properties owned by Group
+              Net, LLC until July 2022.
+            </p>
+            <div className="card-actions">
+              <Link
+                className="btn-primary btn"
+                href="/projects/baptistboard"
+                title="Project Baptist Board"
+              >
+                View
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="not-prose card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
+          <figure className="mx-auto mt-4 h-20 px-4">
+            <Image
               src="/christianityboard_logo.png"
               alt="Christianity Board logo"
               width={256}
