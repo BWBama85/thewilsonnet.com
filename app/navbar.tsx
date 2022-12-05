@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <nav className="bg-primary text-primary-content lg:absolute lg:top-0 lg:right-0 lg:left-auto lg:bottom-auto lg:z-10 lg:rounded-bl-lg lg:rounded-br-none">
-      <div className="flex justify-center lg:text-xl">
+    <nav className="bg-primary text-primary-content xl:absolute xl:top-0 xl:right-0 xl:left-auto xl:bottom-auto xl:z-10 xl:rounded-bl-lg xl:rounded-br-none">
+      <div className="flex justify-center">
         <div>
           <Link
             className="btn-primary btn-sm btn lg:rounded-bl-lg xl:btn-lg"

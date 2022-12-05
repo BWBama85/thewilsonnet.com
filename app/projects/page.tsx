@@ -3,8 +3,10 @@ import Image from 'next/image';
 
 export default function Projects() {
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
-      <h1>Projects</h1>
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 xl:relative xl:mx-0 xl:w-full">
+      <div className="max-w-full lg:max-w-xs">
+        <h1>Projects</h1>
+      </div>
       <div className="divider"></div>
       <h2>Paid Projects</h2>
       <div className="flex flex-wrap items-stretch gap-4">

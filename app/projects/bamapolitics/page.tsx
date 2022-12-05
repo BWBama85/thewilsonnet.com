@@ -3,12 +3,14 @@ import Image from 'next/image';
 
 export default function BamaPolitics() {
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
-      <h1>Bama Politics</h1>
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 xl:relative xl:mx-0 xl:w-full">
+      <div className="max-w-full lg:max-w-xs">
+        <h1>Bama Politics</h1>
+      </div>
       <div className="divider"></div>
       <Image
         src="/bamapolitics_logo.png"
-        className="mx-auto rounded-2xl lg:float-left lg:ml-0 lg:mr-4"
+        className="mx-auto rounded-2xl xl:float-left xl:ml-0 xl:mr-4"
         alt="Bama Politics Logo"
         width={258}
         height={170}

@@ -27,11 +27,11 @@ export default function RootLayout({
             flex
             flex-col
             gap-3
-            lg:my-14
-            lg:w-full 
-            lg:flex-row 
-            lg:justify-center 
-            lg:gap-6
+            xl:my-14
+            xl:w-full 
+            xl:flex-row 
+            xl:justify-center 
+            xl:gap-6
           "
         >
           <Nav />

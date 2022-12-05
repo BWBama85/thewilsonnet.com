@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Resume() {
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
-      <div className="max-w-xs">
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 xl:relative xl:mx-0 xl:w-full">
+      <div className="max-w-full lg:max-w-xs">
         <h1>Richard Brent Wilson&apos;s Resume</h1>
       </div>
       <div className="divider"></div>

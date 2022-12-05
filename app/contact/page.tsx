@@ -55,8 +55,10 @@ export default function Contact() {
   };
 
   return (
-    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 lg:relative lg:mx-0 lg:w-full">
-      <h1>Contact Brent Wilson</h1>
+    <article className="prose mx-4 max-w-none rounded-3xl bg-base-200 p-4 xl:relative xl:mx-0 xl:w-full">
+      <div className="max-w-full lg:max-w-xs">
+        <h1>Contact Brent Wilson</h1>
+      </div>
       <div className="divider"></div>
       <p>
         Need to get in touch? Fill out the form below and I will get back to you
