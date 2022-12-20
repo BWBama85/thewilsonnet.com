@@ -7,16 +7,16 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   let region;
   let cfSecret;
 
-  if (process.env.AWS_ACCESS_KEY_ID) {
-    accessKeyId = process.env.AWS_ACCESS_KEY_ID;
+  if (process.env.AWS_SES_ACCESS_KEY_ID) {
+    accessKeyId = process.env.AWS_SES_ACCESS_KEY_ID;
   } else {
     throw new Error('AWS_ACCESS_KEY is not set');
   }
 
-  if (process.env.AWS_SECRET_ACCESS_KEY) {
-    secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
+  if (process.env.AWS_SES_SECRET_ACCESS_KEY) {
+    secretAccessKey = process.env.AWS_SES_SECRET_ACCESS_KEY;
   } else {
-    throw new Error('AWS_SECRET_ACCESS_KEY is not set');
+    throw new Error('AWS_SES_SECRET_ACCESS_KEY is not set');
   }
 
   if (process.env.AWS_SES_REGION) {
