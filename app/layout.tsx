@@ -2,6 +2,7 @@ import './globals.css';
 import Sidebar from './sidebar';
 import Nav from './navbar';
 import { NextSeo } from 'next-seo';
+import { AnalyticsWrapper } from './components/vercel-analytics';
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
           <Sidebar />
           {children}
         </main>
+        <AnalyticsWrapper />
       </body>
     </html>
   );
