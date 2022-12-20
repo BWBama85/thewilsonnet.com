@@ -58,25 +58,40 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   });
 
   const outcome = await result.json();
-  console.log(outcome);
 
   if (outcome.success) {
-    try {
-      transporter.sendMail({
-        from: 'brent@thewilsonnet.com',
-        to: 'brent@thewilsonnet.com',
-        replyTo: email,
-        subject: 'Contact Form: ' + subject,
-        html: `<p>Name: ${name}</p>
-              <p>${message}</p>`,
+    await new Promise((resolve, reject) => {
+      transporter.verify(function (error, success) {
+        if (error) {
+          console.log(error);
+          reject(error);
+        } else {
+          console.log('Server is ready to take our message');
+          resolve(success);
+        }
       });
-    } catch (error) {
-      if (error instanceof Error) {
-        return res.status(500).json({ error: error.message });
-      } else {
-        return res.status(500).json({ error });
-      }
-    }
+    });
+
+    const mailData = {
+      from: '"The Wilson Net" <brent@thewilsonnet.com>',
+      to: 'brent@thewilsonnet.com',
+      replyTo: email,
+      subject: 'Contact Form: ' + subject,
+      html: `<p>Name: ${name}</p>
+            <p>${message}</p>`,
+    };
+
+    await new Promise((resolve, reject) => {
+      transporter.sendMail(mailData, (err, info) => {
+        if (err) {
+          console.error(err);
+          reject(err);
+        } else {
+          console.log(info);
+          resolve(info);
+        }
+      });
+    });
     return res.status(200).json({ error: '' });
   } else {
     return res.status(result.status).json(outcome);
