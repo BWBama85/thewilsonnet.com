@@ -1,10 +1,4 @@
-import {
-  FaGithub,
-  FaGit,
-  FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -49,15 +43,6 @@ function sidebar() {
             title="GitHub"
           >
             <FaGithub />
-          </Link>
-        </div>
-        <div>
-          <Link
-            href="https://git.thewilsonnet.com/"
-            target="_blank"
-            title="Gitea"
-          >
-            <FaGit />
           </Link>
         </div>
         <div>

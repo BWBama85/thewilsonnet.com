@@ -47,12 +47,12 @@ export default function Home() {
         </Link>
         . You can find the complete source code for The Wilson Net{' '}
         <Link
-          href="https://git.thewilsonnet.com/thewilsonnet/thewilsonnet.com"
-          title="thewilsonnet.com gitea"
+          href="https://github.com/BWBama85/thewilsonnet.com"
+          title="thewilsonnet.com GitHub"
           target="_blank"
           className="link"
         >
-          on my Gitea
+          on my GitHub
         </Link>
         .
       </p>
