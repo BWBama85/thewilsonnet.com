@@ -9,7 +9,7 @@ export default function MustangEvolution() {
       </div>
       <div className="divider"></div>
       <Image
-        src="/mustangevolution_logo.svg"
+        src="/mustangevolution_logo.png"
         className="mx-auto rounded-2xl"
         alt="Mustang Evolution Logo"
         width={258}
