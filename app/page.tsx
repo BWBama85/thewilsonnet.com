@@ -36,7 +36,7 @@ export default function Home() {
         >
           DaisyUI
         </Link>
-        , and{' '}
+        ,{' '}
         <Link
           href="https://github.com/garmeeh/next-seo"
           title="Next SEO"
@@ -44,6 +44,15 @@ export default function Home() {
           className="link"
         >
           Next SEO
+        </Link>
+        , and deployed on{' '}
+        <Link
+          href="https://vercel.com/"
+          title="Vercel"
+          target="_blank"
+          className="link"
+        >
+          Vercel
         </Link>
         . You can find the complete source code for The Wilson Net{' '}
         <Link
