@@ -153,9 +153,8 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://www.christianforums.com/"
-              title="Christian Forums"
-              target="_blank"
+              href="https://thewilsonnet.com/projects/christianforums"
+              title="Christian Forums Project"
               className="link"
             >
               ChristianForums.com
@@ -165,9 +164,8 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://www.religiousforums.com/"
-              title="Religious Forums"
-              target="_blank"
+              href="https://thewilsonnet.com/projects/religiousforums"
+              title="Religious Forums Project"
               className="link"
             >
               ReligiousForums.com
@@ -177,9 +175,8 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://www.baptistboard.com/"
-              title="Baptist Board"
-              target="_blank"
+              href="https://thewilsonnet.com/projects/baptistboard"
+              title="Baptist Board Project"
               className="link"
             >
               BaptistBoard.com
@@ -189,9 +186,8 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://www.christianityboard.com/"
-              title="Christianity Board"
-              target="_blank"
+              href="https://thewilsonnet.com/projects/christianityboard"
+              title="Christianity Board Project"
               className="link"
             >
               ChristianityBoard.com
@@ -225,9 +221,16 @@ export default function Resume() {
         <span className="badge p-3">May 2003 to April 2012</span>
       </div>
       <p>
-        Founded MustangEvolution.com, an online community for Ford Mustang
-        enthusiasts, one of the largest Ford Mustang online communities in the
-        world.
+        Founded{' '}
+        <Link
+          href="http://localhost:3000/projects/mustangevolution"
+          title="Mustang Evolution Project"
+          className="link"
+        >
+          MustangEvolution.com
+        </Link>
+        , an online community for Ford Mustang enthusiasts, one of the largest
+        Ford Mustang online communities in the world.
       </p>
       <ul>
         <li>
