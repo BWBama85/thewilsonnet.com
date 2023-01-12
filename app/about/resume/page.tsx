@@ -33,8 +33,7 @@ export default function Resume() {
 
       <p>
         <Link
-          href="https://www.bamapolitics.com"
-          target="_blank"
+          href="projects/bamapolitics"
           title="Bama Politics"
           className="link"
         >
