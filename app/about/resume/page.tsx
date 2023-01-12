@@ -153,7 +153,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://thewilsonnet.com/projects/christianforums"
+              href="projects/christianforums"
               title="Christian Forums Project"
               className="link"
             >
@@ -164,7 +164,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://thewilsonnet.com/projects/religiousforums"
+              href="projects/religiousforums"
               title="Religious Forums Project"
               className="link"
             >
@@ -175,7 +175,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://thewilsonnet.com/projects/baptistboard"
+              href="projects/baptistboard"
               title="Baptist Board Project"
               className="link"
             >
@@ -186,7 +186,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="https://thewilsonnet.com/projects/christianityboard"
+              href="projects/christianityboard"
               title="Christianity Board Project"
               className="link"
             >
@@ -223,7 +223,7 @@ export default function Resume() {
       <p>
         Founded{' '}
         <Link
-          href="http://localhost:3000/projects/mustangevolution"
+          href="projects/mustangevolution"
           title="Mustang Evolution Project"
           className="link"
         >
