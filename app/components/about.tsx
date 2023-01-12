@@ -13,7 +13,7 @@ export default function ProjectsComp() {
             also lived in Dallas, Texas, and Chattanooga, Tennessee.
           </p>
           <Link href="/about" title="Projects" className="btn-primary btn">
-            Read More
+            More
           </Link>
         </div>
       </div>
