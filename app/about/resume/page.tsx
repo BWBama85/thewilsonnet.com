@@ -33,7 +33,7 @@ export default function Resume() {
 
       <p>
         <Link
-          href="projects/bamapolitics"
+          href="/projects/bamapolitics"
           title="Bama Politics"
           className="link"
         >
@@ -152,7 +152,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="projects/christianforums"
+              href="/projects/christianforums"
               title="Christian Forums Project"
               className="link"
             >
@@ -163,7 +163,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="projects/religiousforums"
+              href="/projects/religiousforums"
               title="Religious Forums Project"
               className="link"
             >
@@ -174,7 +174,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="projects/baptistboard"
+              href="/projects/baptistboard"
               title="Baptist Board Project"
               className="link"
             >
@@ -185,7 +185,7 @@ export default function Resume() {
         <li>
           <p>
             <Link
-              href="projects/christianityboard"
+              href="/projects/christianityboard"
               title="Christianity Board Project"
               className="link"
             >
@@ -222,7 +222,7 @@ export default function Resume() {
       <p>
         Founded{' '}
         <Link
-          href="projects/mustangevolution"
+          href="/projects/mustangevolution"
           title="Mustang Evolution Project"
           className="link"
         >

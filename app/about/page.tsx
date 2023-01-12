@@ -18,7 +18,7 @@ export default function About() {
           development, web server configurations, and optimizations. He is
           currently the owner of{' '}
           <Link
-            href="projects/bamapolitics"
+            href="/projects/bamapolitics"
             title="Bama Politics"
             className="link"
           >
