@@ -3,10 +3,12 @@ import Image from 'next/image';
 
 export default function ProjectsComp() {
   return (
-    <div>
-      <h2>Notable Projects & Jobs</h2>
+    <div className="not-prose ">
+      <h2 className="mb-6 text-center text-5xl font-bold">
+        Notable Projects & Jobs
+      </h2>
       <div className="flex flex-wrap items-stretch gap-4">
-        <div className="not-prose card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
+        <div className="card compact mx-auto w-80 bg-base-100 shadow-xl md:mx-0 md:grow">
           <figure className="mx-auto mt-4 h-20 px-4">
             <Image
               src="/bamapolitics_logo.png"
