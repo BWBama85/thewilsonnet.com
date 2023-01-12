@@ -52,6 +52,7 @@ export default function About() {
           results for his clients.
         </p>
       </div>
+      <div className="divider"></div>
       <Projects />
       <div className="divider"></div>
     </article>
