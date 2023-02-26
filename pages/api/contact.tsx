@@ -38,8 +38,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   const transporter = nodemailer.createTransport({
     host: region,
-    port: 587,
-    secure: false, // upgrade later with STARTTLS
+    port: 465,
+    secure: true, // upgrade later with STARTTLS
     auth: {
       user: accessKeyId,
       pass: secretAccessKey,
