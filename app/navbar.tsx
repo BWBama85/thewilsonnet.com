@@ -6,7 +6,7 @@ export default function Nav() {
       <div className="flex justify-center">
         <div>
           <Link
-            className="btn-primary btn-sm btn lg:rounded-bl-lg xl:btn-lg"
+            className="btn-primary btn-sm btn xl:btn-lg lg:rounded-bl-lg"
             href="/"
           >
             Home
