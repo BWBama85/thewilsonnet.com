@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-sdk/client-ses": "^3.363.0",
     "@aws-sdk/credential-provider-node": "^3.363.0",
-    "@marsidev/react-turnstile": "^0.0.6",
+    "@marsidev/react-turnstile": "^0.2.1",
     "@vercel/analytics": "^0.1.11",
     "classnames": "^2.3.2",
     "daisyui": "^2.52.0",

@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.363.0
     version: 3.363.0
   '@marsidev/react-turnstile':
-    specifier: ^0.0.6
-    version: 0.0.6(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.2.1
+    version: 0.2.1(react-dom@18.2.0)(react@18.2.0)
   '@vercel/analytics':
     specifier: ^0.1.11
     version: 0.1.11(react@18.2.0)
@@ -639,8 +639,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@marsidev/react-turnstile@0.0.6(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-p526QbNHLiTbYQypzenXYQjezqHBfCiFp1BPI8zHmiDj5Ar8yCONyxRSQE9FLZ/9aGKhDu4NkExWOaf64D5dLg==}
+  /@marsidev/react-turnstile@0.2.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-W/jxe6nn55wvbAwCOAtrm+tIg90/1oqBlbWwWaWJ2zuo3pmEBoaz3cnkU5PO5Hhi7NL51H46qL1syrkq/5CN0Q==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
