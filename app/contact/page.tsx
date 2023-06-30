@@ -135,7 +135,7 @@ export default function Contact() {
           </button>
           {submitted === true && (
             <div className="alert alert-success relative w-full max-w-md shadow-lg">
-              <div className="absolute top-1 right-1 bottom-auto left-auto">
+              <div className="absolute bottom-auto left-auto right-1 top-1">
                 <button onClick={() => setSubmitted(null)}>
                   <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
                 </button>
@@ -148,7 +148,7 @@ export default function Contact() {
           )}
           {submitted === false && (
             <div className="alert alert-error relative w-full max-w-md shadow-lg">
-              <div className="absolute top-1 right-1 bottom-auto left-auto">
+              <div className="absolute bottom-auto left-auto right-1 top-1">
                 <button onClick={() => setSubmitted(null)}>
                   <FaWindowClose className="h-5 w-5 shrink-0 stroke-current" />
                 </button>

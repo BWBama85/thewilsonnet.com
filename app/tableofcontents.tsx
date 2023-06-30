@@ -54,6 +54,13 @@ function useInViewId(postSelector: string, headingSelector: string) {
   const [inViewId, setInViewId] = useState<string | undefined>();
 
   useEffect(() => {
+    const postElement = document.querySelector(postSelector);
+
+    if (!postElement) {
+      console.error(`No element found with selector: ${postSelector}`);
+      return;
+    }
+
     const inViewSet = new Map<string, HTMLElement>();
 
     const callback: IntersectionObserverCallback = (changes) => {
@@ -79,11 +86,9 @@ function useInViewId(postSelector: string, headingSelector: string) {
       threshold: 1.0,
     });
 
-    for (const el of document
-      .querySelector(postSelector)!
-      .querySelectorAll(headingSelector)) {
-      observer.observe(el);
-    }
+    const headingElements = postElement.querySelectorAll(headingSelector);
+    headingElements.forEach((el) => observer.observe(el));
+
     return () => observer.disconnect();
   }, [headingSelector, postSelector]);
 
@@ -132,13 +137,17 @@ function useHeadingsData(postSelector: string, headingSelector: string) {
   const [headings, setHeadings] = useState<HEntry[]>([]);
 
   useEffect(() => {
-    const hs = getNestedHeadings(
-      Array.from(
-        document
-          .querySelector(postSelector)!
-          .querySelectorAll<HTMLHeadingElement>(headingSelector)
-      )
-    );
+    const postElement = document.querySelector(postSelector);
+
+    if (!postElement) {
+      console.error(`No element found with selector: ${postSelector}`);
+      return;
+    }
+
+    const headingElements =
+      postElement.querySelectorAll<HTMLHeadingElement>(headingSelector);
+    const hs = getNestedHeadings(Array.from(headingElements));
+
     setHeadings(hs);
   }, [headingSelector, postSelector]);
 
